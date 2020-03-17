@@ -76,8 +76,6 @@ public class Calculator extends Activity
         public void afterTextChanged(Editable editable) {
             setState(CalculatorState.INPUT);
             mEvaluator.evaluate(editable, Calculator.this);
-
-            
         }
     };
 
